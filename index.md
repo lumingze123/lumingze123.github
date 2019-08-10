@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 今、情热が岚になって
+title: 肥宅日志
 showtag:
-- ICPC模板
+- 显示的模板
 ---
 ## 近期
 

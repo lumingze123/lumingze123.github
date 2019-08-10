@@ -1,7 +1,7 @@
-title: wu-kan
-url: http://wu-kan.github.io
+title: lumingze123
+url: http://lumingze123.github.io
 baseurl: '' # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
-author: WuK
+author: feizhai
 
 permalink: /posts/:categories/:title # 博文目录
 
@@ -103,7 +103,7 @@ head: # 删改前确定知道自己在做什么
 
 body:
   theme-base: theme-base-0d # 可选的值08~0f
-  layout-reverse: true # 开启后sidebar在右边，反之左边
+  #layout-reverse: true # 开启后sidebar在右边，反之左边
   sidebar-overlay: true # 开启后正文不随sidebar移动而移动
 
 script: # 需要在正文后调用的脚本
@@ -124,7 +124,7 @@ mermaid: # https://github.com/knsv/mermaid
   stylesheet: //cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css
   markdown_expand: true
 
-PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己定制，将定制的js和css替换我的/public/PrismJS下的对应文件即可。我这里只导入了三个自己喜欢的插件。
+PrismJS: # 代码高亮插件，可以在'https://prismjs.com/download.html'自己定制，将定制的js和css替换我的/public/PrismJS下的对应文件即可。我这里只导入了三个自己喜欢的插件。
   enable: true
   src:
     - stylesheet: //cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.css
@@ -136,7 +136,7 @@ PrismJS: # 代码高亮插件，可以在https://prismjs.com/download.html自己
     toolbar:
       show_language:
         enable: true
-        text: 猜猜这是什么语言？
+        text: 这是什么语言？
         alert: 用的是
       select_code:
         enable: true
@@ -153,28 +153,28 @@ sidebar:
   avatar: # 侧边栏显示的头像
     enable: true
     img: //www.gravatar.com/avatar/a12c5fff23dde00df79af9aca4e7b6e4?d=wavatar&s=600 # 头像的地址
-    info: <br>SYSU17级在读<br>计科超算方向<br>ACMer<br>田宫例四驱车<br>永远喜欢水野爱 # 头像背后的信息
+    info: <br>HZU18级在读<br>物联网工程<br>腼腆的死肥宅<br>北五165 # 头像背后的信息
   description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=0&id=155059595&auto=0&height=32"></iframe>'
   social:
   - title: rss # rss
     href: /atom.xml
     class: 'fa fa-rss fa-fw'
-  - title: 942759535 # qq
+  - title: 1471165020 # qq
     class: 'fa fa-qq fa-fw'
-  - title: Wu-_-Kan # weixin
+  - title: qq1471165020 # weixin
     class: 'fa fa-weixin fa-fw'
-  - title: wu.kan@foxmail.com # email
-    href: mailto:wu.kan@foxmail.com
+  - title: 1471165020@qq.com # email
+    href: mailto:1471165020@qq.com
     class: 'fa fa-envelope fa-fw'
   - title: github # email
-    href: //github.com/wu-kan
+    href: //github.com/lumingze123
     class: 'fa fa-github fa-fw'
-  - title: WuK # codeforces
-    href: //codeforces.com/profile/WuK
-    class: 'fa fa-bar-chart fa-fw'
-  - title: WuK # vjudge
-    href: //vjudge.net/user/WuK
-    class: 'fa fa-smile-o fa-fw'
+# - title: WuK # codeforces
+#   href: //codeforces.com/profile/WuK
+#   class: 'fa fa-bar-chart fa-fw'
+# - title: WuK # vjudge
+#   href: //vjudge.net/user/WuK
+#   class: 'fa fa-smile-o fa-fw'
   nav:
   - title: '<span class="fa fa-home fa-fw"></span>&nbsp;首页'
     href: /
@@ -214,7 +214,7 @@ busuanzi:
 
 run_time:
   enable: true
-  start-time: '10/04/2017 11:03:56' # 这是我第一篇CSDN博客的时间
+  start-time: '10/08/2019 18:00:00' #初始时间 (这是我第一篇CSDN博客的时间)
   alert: 努力运行
   day: 天
   hour: 时
@@ -239,7 +239,7 @@ post:
     visitor: # 需要开启valine的visitor选项使之开始计数; 可能会和busuanzi统计的有出入
       enable: true
       unit: 次
-    copyright: '<span class="fa fa-creative-commons"></span>&nbsp;<a rel="license" href="//creativecommons.org/licenses/by-sa/4.0/deed.zh">BY-SA 4.0</a>（除特别声明或转载文章外）'
+#   copyright: '<span class="fa fa-creative-commons"></span>&nbsp;<a rel="license" href="//creativecommons.org/licenses/by-sa/4.0/deed.zh">BY-SA 4.0</a>（除特别声明或转载文章外）'
   related:
     enable: false
     title: 相关博文
@@ -252,24 +252,24 @@ post:
     - id: alipay
       src: /public/image/alipay.jpg
 
-valine:
-  enable: true
-  src: //cdn.jsdelivr.net/npm/valine
-  appId: 9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz
-  appKey: NJ7RwmgrxsF7KDzlqU7YewlL
-  notify: true # 评论回复邮件提醒
-  verify: true # 验证码服务
-  avatar: identicon
-  placeholder: 在这里评论吧！
-  visitor: true # 文章访问量统计
-  highlight: true # 代码高亮
-  avatarForce: false # 每次访问强制拉取最新的评论列表头像
-  recordIP: true # 记录评论者IP
+#valine:
+#  enable: true
+#  src: //cdn.jsdelivr.net/npm/valine
+#  appId: 9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz
+#  appKey: NJ7RwmgrxsF7KDzlqU7YewlL
+#  notify: true # 评论回复邮件提醒
+#  verify: true # 验证码服务
+#  avatar: identicon
+#  placeholder: 在这里评论吧！
+#  visitor: true # 文章访问量统计
+#  highlight: true # 代码高亮
+#  avatarForce: false # 每次访问强制拉取最新的评论列表头像
+#  recordIP: true # 记录评论者IP
 
 page404:
   search_children: # 腾讯公益
     enable: true
-    src: //qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js
+    src: //qzonestyle.gtimg.cn/qzone/hybrid/app/404/ #search_children.js
     charset: utf-8
     homePageUrl: '/'
     homePageName: 回到我的主页
