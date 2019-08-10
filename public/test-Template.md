@@ -1,8 +1,8 @@
 ---
 layout: document
-title: ICPC模板
+title: 测试
 ---
-{% for post in site.tags["ICPC模板"] %}
+{% for post in site.tags["测试"] %}
 # {{ post.title }}
 {{ post.content }}
 {% endfor %}
