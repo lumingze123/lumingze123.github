@@ -1,4 +1,4 @@
-title: lumingze123
+title: lumingze
 url: http://lumingze123.github.io
 baseurl: '' # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
 author: 肥宅
@@ -163,6 +163,7 @@ sidebar:
     href: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1471165020
     class: 'fa fa-qq fa-fw'
   - title: qq1471165020 # weixin
+    href:
     class: 'fa fa-weixin fa-fw'
   - title: 1471165020@qq.com # email
     href: mailto:1471165020@qq.com
