@@ -244,7 +244,7 @@ post:
 #   copyright: '<span class="fa fa-creative-commons"></span>&nbsp;<a rel="license" href="//creativecommons.org/licenses/by-sa/4.0/deed.zh">BY-SA 4.0</a>（除特别声明或转载文章外）'
   related:
     enable: ture
-    title: 相关博文
+    title: 其他博文
   reward:
     enable: true
     text: 仅供参考
