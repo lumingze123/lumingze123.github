@@ -243,7 +243,7 @@ post:
       unit: 次
 #   copyright: '<span class="fa fa-creative-commons"></span>&nbsp;<a rel="license" href="//creativecommons.org/licenses/by-sa/4.0/deed.zh">BY-SA 4.0</a>（除特别声明或转载文章外）'
   related:
-    enable: false
+    enable: ture
     title: 相关博文
   reward:
     enable: true
