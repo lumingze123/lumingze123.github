@@ -3,6 +3,7 @@ layout: page
 title: 肥宅日志
 showtag:
 - 显示的模板
+- 测试
 ---
 ## 近期
 
@@ -37,3 +38,5 @@ showtag:
 {% endfor %}
 
 {% endfor %}
+
+
