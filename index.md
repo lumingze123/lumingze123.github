@@ -2,7 +2,7 @@
 layout: page
 title: 肥宅日志
 showtag:
-- 显示的模板
+- 安利
 - 测试
 ---
 ## 近期
