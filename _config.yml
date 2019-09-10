@@ -154,7 +154,7 @@ sidebar:
     enable: true
     img: http://b311.photo.store.qq.com/psb?/V10T7uxB2J5fJ7/E0eIjTTrodDvnhdOt6IrHxHY1mFFVsHtoze8q5WXBLc!/b/dDcBAAAAAAAA&bo=AAS0AgAAAAARB4I!&rf=viewer_4 # 头像的地址
     info: <br>HZU<br>物联网工程<br>腼腆的死肥宅<br>北五165 # 头像背后的信息
-  description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=2&id=1347110044&auto=1&height=32">勾指起誓</iframe>'
+  description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=2&id=1347110044&auto=0&height=32">勾指起誓</iframe>'
   social:
   #- title: rss # rss
   #  href: /atom.xml
